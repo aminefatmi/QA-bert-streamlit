@@ -8,3 +8,4 @@ scikit-learn==0.23.2
 beautifulsoup4==4.8.2
 torch==1.7.0+cu10
 transformers==4.3.2
+tensorflow==2.0

@@ -1,9 +1,9 @@
 import streamlit as st
-import BertForQuestionAnswering
+from transformers import BertForQuestionAnswering
 
 model = BertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 
-import BertTokenizer
+from transformers import BertTokenizer
 
 tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 
