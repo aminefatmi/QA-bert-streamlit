@@ -8,5 +8,7 @@ scikit-learn==0.23.2
 beautifulsoup4==4.8.2
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch==1.7.0+cu10
+torch
+torchvision
 transformers==4.3.2
 tensorflow==2.0
